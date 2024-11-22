@@ -1,0 +1,43 @@
+{
+  "name": "mi-blogs",
+  "version": "1.0.0",
+  "description": "A full blog website that gives bloggers full customization control over their blog page",
+  "main": "backend/app",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulwarith001/MI-Blogs.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Abdulwahab Abdulwarith AGbolahan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulwarith001/MI-Blogs/issues"
+  },
+  "homepage": "https://github.com/abdulwarith001/MI-Blogs#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cloudinary": "^1.41.0",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^7.0.1",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
